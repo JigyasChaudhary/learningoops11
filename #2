@@ -1,0 +1,11 @@
+public class Rege90 {
+    public static void main(String[] args) {
+        String arr[]= {"neer","a","aa","abcd", "javateacher","abc@gmail.com"};
+       for(String res :arr) {
+           if(res.matches("[a-z]+@gmail.com")==true)
+           {
+               System.out.println(res);
+           }
+       }
+    }
+}
